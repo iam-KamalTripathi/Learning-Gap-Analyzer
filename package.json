@@ -1,0 +1,27 @@
+{
+  "name": "intellify",
+  "version": "1.0.0",
+  "description": "A bussiness helping SaaS platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Kamal Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "prettier": "^3.8.1",
+    "uuid": "^13.0.0",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
